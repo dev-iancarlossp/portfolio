@@ -67,8 +67,7 @@ body {
     text-align: center;
     text-decoration: none;
     width: 300px;
-    border: solid;
-    border-color: aqua;
+    border: 2px solid #22D4FD;
     border-radius: 16px;
     padding: 21.5px 0;
 }
