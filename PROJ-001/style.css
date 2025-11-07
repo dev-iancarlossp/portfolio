@@ -20,7 +20,7 @@ body {
 }
 
 .apresentacao {
-    margin: 5% 10%;
+    margin: 10%;
     margin-top: 5%;
     display: flex;
     align-items: center;
@@ -31,7 +31,7 @@ body {
     display: flex;
     width: 600px;
     flex-direction: column;
-    gap: 40px;
+    gap: 25px;
 }
 
 .apresentacao__conteudo__titulo {
@@ -60,6 +60,10 @@ body {
 }
 
 .apresentacao__link__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
     font-size: 20px;
@@ -70,6 +74,13 @@ body {
     border: 2px solid #22D4FD;
     border-radius: 16px;
     padding: 21.5px 0;
+    transition: transform 0.3s ease;
+}
+
+.apresentacao__link__link:hover {
+    background-color: #272727;
+    transform: scale(1.1);
+
 }
 
 .apresentacao__link__destaque {
