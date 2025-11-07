@@ -6,7 +6,15 @@
     padding: 0;
 }
 
+header {
+    display: flex;
+    /* margin: 10%;
+    margin-top: 2%; */
+}
 
+.header__links {
+    margin-left: 10%;
+}
 
 body {
     background-color: black;
