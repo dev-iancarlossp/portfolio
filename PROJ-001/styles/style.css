@@ -138,7 +138,7 @@ body {
 
     .cabecalho__menu {
         justify-content: center;
-        gap: 50px;
+        gap: 30px;
     }
 
     .apresentacao {
@@ -146,11 +146,11 @@ body {
     }
 
     .apresentacao__conteudo {
-        width: 100%;
+        width: auto;
         gap: 60px;
     }
 
     .apresentacao__link__navegacao {
-        width: 70%;
+        width: auto;
     }
 }
