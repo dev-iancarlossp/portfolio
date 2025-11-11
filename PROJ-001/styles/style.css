@@ -47,7 +47,7 @@ body {
 }
 
 .apresentacao {
-    padding: 10% 8%;
+    padding: 8% 8%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -131,7 +131,7 @@ body {
     padding: 15px;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 700px) {
     .cabecalho {
         padding: 8%;
     }
