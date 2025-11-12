@@ -52,6 +52,7 @@ body {
     align-items: center;
     justify-content: center;
     gap: 60px;
+    margin: 0;
 }
 
 .titulo-destaque {
@@ -60,7 +61,7 @@ body {
 
 .apresentacao__conteudo {
     display: flex;
-    width: 50%;
+    width: 60%;
     flex-direction: column;
     gap: 25px;
 }
@@ -77,7 +78,7 @@ body {
 }
 
 .apresentacao__imagem {
-    width: 40%;
+    width: 50%;
 }
 
 .apresentacao__link {
@@ -142,6 +143,7 @@ body {
     }
 
     .apresentacao {
+        padding: 5%;
         flex-direction: column-reverse;
     }
 
@@ -151,6 +153,6 @@ body {
     }
 
     .apresentacao__link__navegacao {
-        width: auto;
+        width: 60%;
     }
 }
